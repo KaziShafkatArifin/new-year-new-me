@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.section-title {
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.section-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+/* header css */
+
+header {
+  background-image: url("/images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+  padding: 386px 230px 0 0;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #ffffff;
+  padding: 10px 30px 0 0;
+}
+.header-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 10px 30px 30px 0;
+}
+.header-span {
+  color: black;
+}
+.primary-btn {
+  color: #005fac;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  margin-bottom: 170px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* failures css */
+
+.failures {
+  display: flex;
+  gap: 90px;
+  padding: 80px 270px;
+}
+.failures-details {
+  padding-top: 200px;
+}
+.failures-list {
+  list-style: none;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.failures-icon {
+  color: skyblue;
+  padding-right: 10px;
+}
+
+/* plan css */
+.plan-title {
+  text-align: center;
+}
+.plan-details {
+  display: flex;
+  gap: 50px;
+    justify-items: center;
+  padding-left: 450px;
+}
+.plan-single{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+.plan-single-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: black;
+  padding: 20px 0;
+}
+
+/* positive css */
+
+.positive{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin-left: 370px;
+}
+.positive-container{
+    padding: 50px 0 0 50px;
+    position: relative;
+    z-index: 1;
+}
+.positive-container::after{
+    content: "";
+    position: absolute;
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.positive-title{
+    color: #ffffff;
+}
+
+/* footer css */
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    background-color: black;
+    color: #ffffff;
+    padding: 70px 0px;
+}
+.footer-title{
+    color: #ffffff;
+}
+.contact{
+    margin: 20px 0;
+}
+.footer-left-bottom img{
+    margin-right: 10px;
+}
+.footer-right{
+    /* display: grid; */
+}
+.footer-right-title{
+    font-weight: 600;
+font-size: 25px;
+margin-bottom: 30px;
+}
+.email-right{
+    border: 1px solid white;
+    background-color: black;
+    width: 150%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.footer-btn{
+    color: #ffffff;
+  background-color: #005fac;
+  padding: 20px 30px;
+  margin-bottom: 170px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
