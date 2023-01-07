@@ -17,7 +17,7 @@
 /* header css */
 
 header {
-  background-image: url("./images/banner/banner3.png");
+  background-image: url('../images/banner/banner3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -52,6 +52,20 @@ header {
   border-radius: 5px;
 }
 
+/* about me css */
+
+.about{
+  background-color: #009AD2;
+  text-align: center;
+  color: #ffffff;
+}
+.about h2{
+  color: #ffffff;
+  margin-top: 20px;
+}
+.about-para{
+  font-size: 20px;
+}
 /* failures css */
 
 .failures {
@@ -142,9 +156,7 @@ footer{
 .footer-left-bottom img{
     margin-right: 10px;
 }
-.footer-right{
-    /* display: grid; */
-}
+
 .footer-right-title{
     font-weight: 600;
 font-size: 25px;
